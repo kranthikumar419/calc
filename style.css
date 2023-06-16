@@ -1,0 +1,96 @@
+#n1{
+    height: 25px;
+    width: 60%;
+}
+#n2{
+    height: 25px;
+    width: 60%;
+}
+#add{
+   color: white;
+   height: 60px;
+   width: 75px;
+   border-radius: 35%;
+   background-color: black;
+}
+#sub{
+    color: white;
+    background-color: black;
+    height: 60px;
+    width: 75px;
+    border-radius: 35%;
+}
+#mul{
+    color: aliceblue;
+    height: 60px;
+    width: 75px;
+    border-radius: 35%;
+    background-color: black;
+}
+#div{
+    color: white;
+    height: 60px;
+    width: 75px;
+    border-radius: 35%;
+    background-color: black;
+}
+body{
+    height: 100vh;
+    width: 100%;
+    border-color: black;
+    /* border: 2px solid; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url('Home.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    overflow: hidden;
+}
+.calc{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height:60vh;
+    width: 500px;
+    background-color: rgba(0,0,0,40%);
+    border-radius: 25%;
+    border: solid;
+}
+#val{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+#result{
+    height: 30px;
+    width: fit-content;
+    text-align: center;
+    color: black;
+    background-color: white;
+    border-radius: 10%;
+}
+#relo{
+    color: white;
+    height: 60px;
+    width: 75px;
+    border-radius: 35%;
+    background-color: black;
+}
+#wait{
+    height: 30px;
+    width: fit-content;
+    color: black;
+    background-color: white;
+    border-radius: 10%;
+}
+#equ{
+    color: white;
+    height: 60px;
+    width: 75px;
+    border-radius: 35%;
+    background-color: black;
+    margin-left: 160px;
+}
